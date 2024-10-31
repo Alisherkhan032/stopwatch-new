@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #023047;
+}
+span{
+    color: #b0e2f9;
+}
+.main{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 5%;
+}
+.clock{
+    font-size: 2rem;
+}
+button{
+    width: 5em;
+    height: 3em;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    font-size: large;
+    cursor: pointer;
+}
+button:hover{
+    background-color: antiquewhite;
+}
